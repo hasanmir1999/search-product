@@ -1,0 +1,22 @@
+# فولدر وابستگی‌ها
+node_modules/
+
+# فولدر تولیدات Next.js
+.next/
+
+# فولدر خروجی استاتیک
+.out/
+
+# فایل‌های پیکربندی محیطی
+.env
+.env.local
+.env.development
+.env.production
+
+# فولدرهای پیکربندی IDE
+.vscode/
+
+# فایل‌های سیستم‌عامل و پشتیبان‌ها
+.DS_Store
+Thumbs.db
+*.log

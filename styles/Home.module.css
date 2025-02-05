@@ -1,0 +1,73 @@
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.searchForm{
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.searchForm h1{
+  color: gray;
+}
+
+.searchForm input{
+  width: 100%;
+  margin: 20px 0;
+  height: 40px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(99, 99, 99);
+  font-size: 18px;
+}
+
+.searchForm button{
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: none;
+  background-color: #61d3b1;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noProduct{
+  background: #fff;
+  border-left: 7px solid red;
+  border-radius: 10px;
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.productCardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.loading{
+  font-size: 17px;
+  animation: spinner 1s linear infinite;
+  margin-left: 10px;
+}
+
+@keyframes spinner {
+  0%{
+    transform: rotate(0)
+  }
+  100%{
+    transform: rotate(1turn);
+  }
+
+}

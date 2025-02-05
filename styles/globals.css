@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'yekan';
+  src: url('../public/fonts/Yekan.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: 'yekan';
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  height: 100svh;
+  background-color: #a2cbcf;
+}
+
