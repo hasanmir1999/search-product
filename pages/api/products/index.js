@@ -7,7 +7,7 @@ export default async function handler(req , res) {
     await connectDB()
     // connect to db
 
-    //   http://localhost:3000/api/products?searchkey=${inputData}
+    //   http://localhost:3000/api/products?searchkey=searchKey
     
     if(req.method == 'GET'){
         const {searchkey} = req.query  // Get the value of a query string
@@ -33,5 +33,5 @@ export default async function handler(req , res) {
     }
     
 
-    //   http://localhost:3000/api/products?searchkey=${inputData}
+    //   http://localhost:3000/api/products?searchkey=searchKey
 }
